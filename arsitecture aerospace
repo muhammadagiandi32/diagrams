@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T11:21:52.789Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="s7G2F_SamEANjexi-4Se" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T14:12:04.055Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15" etag="y4EJSRxUKPw5xHTG4Dad" version="21.1.1" type="github">
   <diagram name="Page-1" id="qYMDJHF50H8eeMlOTnGM">
-    <mxGraphModel dx="4412" dy="2368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4097" dy="2706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,10 +26,7 @@
           <mxGeometry x="220" y="585" width="445.53" height="150" as="geometry" />
         </mxCell>
         <mxCell id="daQr0-5rQtrvMBAkp5UG-11" value="AWS EC2 - AuthService" style="outlineConnect=0;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontSize=16;labelPosition=center;" vertex="1" parent="1">
-          <mxGeometry x="970" y="1110" width="180" height="176.69" as="geometry" />
-        </mxCell>
-        <mxCell id="daQr0-5rQtrvMBAkp5UG-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=11;strokeColor=#FF9317;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="2610" width="2160" height="1050" as="geometry" />
+          <mxGeometry x="840" y="1110" width="180" height="176.69" as="geometry" />
         </mxCell>
         <mxCell id="daQr0-5rQtrvMBAkp5UG-15" value="AWS EC2 - Frontend Service" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="350" y="1110" width="180" height="176.69" as="geometry" />
@@ -37,7 +34,7 @@
         <mxCell id="daQr0-5rQtrvMBAkp5UG-16" value="AWS EC2 - Inveentory Service" style="outlineConnect=0;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontSize=16;horizontal=1;labelPosition=center;" vertex="1" parent="1">
           <mxGeometry x="1654" y="1110" width="180" height="176.69" as="geometry" />
         </mxCell>
-        <mxCell id="daQr0-5rQtrvMBAkp5UG-18" value="DB Backeend" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="daQr0-5rQtrvMBAkp5UG-18" value="DB Backeend" style="outlineConnect=0;dashed=0;verticalLabelPosition=top;verticalAlign=bottom;align=left;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;fontSize=22;labelPosition=right;" vertex="1" parent="1">
           <mxGeometry x="1660.05" y="1510" width="167.91" height="180.5" as="geometry" />
         </mxCell>
         <mxCell id="daQr0-5rQtrvMBAkp5UG-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=1;strokeWidth=4;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="daQr0-5rQtrvMBAkp5UG-18" target="daQr0-5rQtrvMBAkp5UG-16">
@@ -65,13 +62,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="daQr0-5rQtrvMBAkp5UG-25" value="DB Authentication&lt;br style=&quot;font-size: 20px;&quot;&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="976.04" y="1490" width="167.91" height="180.5" as="geometry" />
+          <mxGeometry x="846.0400000000001" y="1490" width="167.91" height="180.5" as="geometry" />
         </mxCell>
         <mxCell id="daQr0-5rQtrvMBAkp5UG-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=1;strokeWidth=4;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="daQr0-5rQtrvMBAkp5UG-25" target="daQr0-5rQtrvMBAkp5UG-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1290.96" y="1453" as="sourcePoint" />
             <mxPoint x="1053.95" y="1350" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="daQr0-5rQtrvMBAkp5UG-28" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloud_2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="790" width="205" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="daQr0-5rQtrvMBAkp5UG-30" value="AWS S3 Bucket" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.bucket_with_objects;fillColor=#E05243;gradientColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1653.51" y="1900" width="180.49" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="daQr0-5rQtrvMBAkp5UG-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=1;strokeWidth=4;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="daQr0-5rQtrvMBAkp5UG-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1743" y="1860" as="sourcePoint" />
+            <mxPoint x="1743.01" y="1690.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daQr0-5rQtrvMBAkp5UG-32" value="" style="rounded=1;arcSize=10;dashed=0;fillColor=none;gradientColor=none;strokeWidth=12;fontColor=#FF9317;fontSize=15;strokeColor=#FF9317;" vertex="1" parent="1">
+          <mxGeometry x="182" y="1010" width="1820" height="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="daQr0-5rQtrvMBAkp5UG-33" value="EC2 &lt;br&gt;Container" style="dashed=0;html=1;shape=mxgraph.aws3.instance;fillColor=#F58536;gradientColor=none;dashed=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="100" y="980" width="142" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="daQr0-5rQtrvMBAkp5UG-35" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="daQr0-5rQtrvMBAkp5UG-36" value="Software Architecture &lt;font color=&quot;#3333ff&quot;&gt;aerospace.co.id&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=72;" vertex="1" parent="1">
+          <mxGeometry x="950" y="280" width="870" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
